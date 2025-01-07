@@ -2056,6 +2056,7 @@ html {
   
   :root {
     --color: #b53a3a;
+    --font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   }
   
   .w-layout-grid {
@@ -2537,6 +2538,9 @@ html {
   .header-border._2 {
     color: #fff;
     border-top-color: #ffffff1a;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: -54px;
   }
   
   .ha-content {
@@ -2593,6 +2597,8 @@ html {
     color: #fff;
     text-transform: uppercase;
     border-color: #fff;
+    justify-content: flex-end;
+    align-items: center;
     margin-bottom: 5px;
   }
   
@@ -2621,8 +2627,8 @@ html {
   }
   
   .carousel {
-    grid-column-gap: 70px;
-    grid-row-gap: 70px;
+    grid-column-gap: 75px;
+    grid-row-gap: 75px;
     justify-content: flex-start;
     align-items: center;
     display: flex;
@@ -2718,7 +2724,7 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-flow: row;
-    place-items: center;
+    place-items: center end;
     width: 100%;
     max-width: 970px;
     margin-left: 0;
@@ -2765,9 +2771,10 @@ html {
   
   .home-strategy {
     grid-row-gap: 0px;
+    text-align: left;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 70px;
     padding: 0;
     text-decoration: none;
@@ -2854,6 +2861,9 @@ html {
   
   .footer {
     background-color: #0f231b;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
   
   .footer-heading {
@@ -2898,7 +2908,7 @@ html {
   }
   
   .text-field {
-    color: #cf2626;
+    color: #fff;
     -webkit-text-fill-color: inherit;
     background-color: #fff0;
     background-clip: padding-box;
@@ -3350,7 +3360,7 @@ html {
   .ca-content {
     grid-column-gap: 40px;
     grid-row-gap: 40px;
-    flex-flow: column;
+    flex-flow: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
@@ -3436,6 +3446,7 @@ html {
   }
   
   .case-heading.cms {
+    text-align: center;
     max-width: 660px;
   }
   
@@ -3453,6 +3464,7 @@ html {
   .case-cms {
     grid-column-gap: 70px;
     grid-row-gap: 70px;
+    color: #fff;
     border-top: 1px solid #a8463f33;
     flex-flow: column;
     justify-content: flex-start;
@@ -3490,6 +3502,7 @@ html {
   }
   
   .cc-rich-text {
+    text-align: center;
     max-width: 900px;
   }
   
@@ -3794,6 +3807,7 @@ html {
     color: #f5f5f5;
     text-align: center;
     border-radius: 0;
+    align-self: auto;
     font-size: 25px;
   }
   
@@ -4165,7 +4179,7 @@ html {
     -webkit-text-stroke-color: #fff;
   }
   
-  .text-block-23, .text-block-24, .text-block-25, .text-block-26, .text-block-27, .text-block-28, .text-block-29, .text-block-30, .text-block-31, .text-block-32, .text-block-33, .text-block-34, .text-block-35, .text-block-36, .text-block-37, .text-block-38 {
+  .text-block-23, .text-block-24, .text-block-25, .text-block-26, .text-block-27, .text-block-28, .text-block-29, .text-block-30, .text-block-31, .text-block-32, .text-block-33, .text-block-34, .text-block-35, .text-block-36, .text-block-37, .text-block-38, .heading-21 {
     color: #fff;
   }
   
